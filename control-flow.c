@@ -4,6 +4,7 @@
 void main () {
   char name[25];
   int age;
+  char grade;
 
   printf("What is your name ? : ");
   fgets(name, 25, stdin);
@@ -23,5 +24,21 @@ void main () {
   }
   else {
     printf("\nI'm sorry, but are you a human %s ?\n", name);
+  }
+
+  printf("Tell me your grade please : ");
+  scanf("%c", &grade);
+  switch(grade) {
+    case 'A':
+      printf("Good\n");
+      break;
+    case 'B':
+      printf("Not bad\n");
+      break;
+    case 'C':
+      printf("Waduh\n");
+      break;
+    default:
+      printf("Wrong input sir...\n");
   }
 }
