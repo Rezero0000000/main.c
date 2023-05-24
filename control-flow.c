@@ -22,6 +22,6 @@ void main () {
     printf("\nHello %s Mommy\n", name);
   }
   else {
-    printf("\nI'm sorry but are you a human %s ?\n", name);
+    printf("\nI'm sorry, but are you a human %s ?\n", name);
   }
 }
