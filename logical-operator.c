@@ -21,4 +21,6 @@ void main () {
   printf("a != a = %s\n", (a != a) ? "true" : "false");
 
   printf("\n\nNote: \n\n[1]. a = true\n[2]. b = false\n");
+
+  // Anyway i use ternary operator :v
 }
