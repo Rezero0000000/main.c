@@ -1,3 +1,3 @@
-# code-c
+# Code-c
 
 
