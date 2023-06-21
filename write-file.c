@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void main () {
+  
   // Write/append a file
   File *pF = fopen("./test.txt", "w");
   fprintf(pF, "Let's all love lain");
